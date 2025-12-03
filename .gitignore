@@ -1,1 +1,6 @@
 /last_profile.txt
+
+#ignore changes of these files as they are updated whenever we change profile
+/scripts/cycle_backward_windows_dofus.sh
+/scripts/cycle_windows_dofus.sh
+/profiles.json

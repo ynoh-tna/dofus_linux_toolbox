@@ -1,0 +1,29 @@
+{
+  "active": "3-Initiative",
+  "profiles": {
+    "3-connexion": {
+      "windows": [
+        "Cra",
+        "Enu",
+        "Feca"
+      ],
+      "characters": [
+        "Cra-name",
+        "Enu-name",
+        "Feca-name"
+      ]
+    },
+    "3-Initiative": {
+      "windows": [
+        "Cra",
+        "Feca",
+        "Enu"
+      ],
+      "characters": [
+        "Cra-name",
+        "Feca-name",
+        "Enu-name"
+      ]
+    }
+  }
+}

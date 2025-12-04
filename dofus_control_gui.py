@@ -219,7 +219,8 @@ def invite_group(profile_name: str) -> None:
     if not characters:
         return
     
-    for character in characters:
+    # Skip the first character
+    for character in characters[1:]:
         invite_cmd = f"/invite {character}"
         run_cmd(['xdotool', 'type', '--clearmodifiers', invite_cmd])
         time.sleep(0.1)

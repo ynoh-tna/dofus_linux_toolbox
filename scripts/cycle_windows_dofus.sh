@@ -1,6 +1,6 @@
 #!/bin/bash
 STATE_FILE="/tmp/dofus_window_index"
-CLASS_INI=('Cra' 'Feca' 'Enu')
+CLASS_INI=('Cra' 'Enu' 'Feca')
 AVAILABLE=($(wmctrl -l | grep "Dofus-" | awk '{print $4}' | cut -d'-' -f2))
 if [[ ${#AVAILABLE[@]} -eq 0 ]]; then exit 1; fi
 if [ -f "$STATE_FILE" ]; then INDEX=$(cat "$STATE_FILE"); else INDEX=0; fi

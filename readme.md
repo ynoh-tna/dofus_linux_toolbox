@@ -55,7 +55,7 @@ python3 dofus_control_gui.py
 - **✎ Renommer**: Renomme les fenêtres selon le profil actif et mute les autres
 - **🔒 Lock**: Active/désactive le verrouillage au premier plan
 - **↻ Réorganiser**: Réorganise les fenêtres entre espaces de travail
-- **⚜ Inviter**: Lance la macro d'invites groupe
+- **👥 Inviter**: Lance la macro d'invites groupe
 
 ### Format du Profil
 
